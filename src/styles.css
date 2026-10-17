@@ -1,0 +1,90 @@
+:root {
+  --bg: #0b1a2e;
+  --panel: #12263f;
+  --text: #f2f5f9;
+  --muted: #9fb3c8;
+  --amber: #f5c542;
+  --green: #4ade80;
+  --red: #f87171;
+  --blue: #60a5fa;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.app__header h1 {
+  margin: 0;
+  color: var(--amber);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.app__tagline {
+  margin: 0.25rem 0 1.5rem;
+  color: var(--muted);
+}
+
+.board {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--panel);
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+}
+
+.board caption {
+  text-align: left;
+  padding-bottom: 0.5rem;
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+}
+
+.board th,
+.board td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #1e3a5f;
+}
+
+.board th {
+  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.board__empty {
+  color: var(--muted);
+}
+
+.status--ontime {
+  color: var(--green);
+}
+
+.status--boarding {
+  color: var(--blue);
+}
+
+.status--delayed {
+  color: var(--amber);
+}
+
+.status--cancelled {
+  color: var(--red);
+}

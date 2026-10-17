@@ -1,0 +1,10 @@
+[
+  { "id": "SK101", "flight": "SK101", "destination": "Reykjavik", "gate": "A4", "departureTime": "08:15", "status": "On time" },
+  { "id": "SK204", "flight": "SK204", "destination": "Tokyo", "gate": "B12", "departureTime": "09:40", "status": "Boarding" },
+  { "id": "SK318", "flight": "SK318", "destination": "Nairobi", "gate": "C2", "departureTime": "10:05", "status": "Delayed" },
+  { "id": "SK422", "flight": "SK422", "destination": "Lima", "gate": "A9", "departureTime": "11:30", "status": "On time" },
+  { "id": "SK537", "flight": "SK537", "destination": "Toronto", "gate": "D1", "departureTime": "12:50", "status": "Cancelled" },
+  { "id": "SK649", "flight": "SK649", "destination": "Sydney", "gate": "B3", "departureTime": "14:20", "status": "On time" },
+  { "id": "SK760", "flight": "SK760", "destination": "Lisbon", "gate": "C8", "departureTime": "15:45", "status": "Delayed" },
+  { "id": "SK888", "flight": "SK888", "destination": "Mars Base One", "gate": "Z99", "departureTime": "23:59", "status": "On time" }
+]
